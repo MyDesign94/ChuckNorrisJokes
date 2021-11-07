@@ -2,7 +2,7 @@
 
 ![](http://icndb.com/wp-content/uploads/2011/01/icndb_logo2.png)
 
-This is an application that displays jokes about Chuck Noris on one screen and the WebView of the Api documentation on another.
+This is application that displays jokes about Chuck Noris on one screen and the WebView of the Api documentation on another.
 - [Api documentation](http://www.icndb.com/api/)
 
 ## **Screen shots**
