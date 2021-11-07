@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChuckNorrisApi</string>
+    <string name="reload">RELOAD</string>
+    <string name="error_message">Oops something went wrong. Try again</string>
+    <string name="hintTextField">Count</string>
+    <string name="jokes">Jokes</string>
+    <string name="web">Web</string>
+    <string name="api_info">Api info</string>
+    <string name="error_Icon">Error Icon</string>
+    <string name="bottom_icon">Bottom navigation Icon</string>
+</resources>

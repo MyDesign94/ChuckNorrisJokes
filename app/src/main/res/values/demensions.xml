@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="barSize">56.dp</dimen>
+    <dimen name="iconBottomBarSize">24.dp</dimen>
+    <dimen name="error_icon_size">90.dp</dimen>
+    <dimen name="buttonHeight">56.dp</dimen>
+    <dimen name="indicatorSize">48.dp</dimen>
+    <dimen name="indicatorWeight">4.dp</dimen>
+</resources>
