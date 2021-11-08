@@ -1,6 +1,7 @@
 # Chuck Norris Jokes App
-
-![](http://icndb.com/wp-content/uploads/2011/01/icndb_logo2.png)
+<p align="center">
+  <img src="https://icndb.com/wp-content/uploads/2011/01/icndb_logo2.png">
+</p>
 
 This is application that displays jokes about Chuck Noris on one screen and the WebView of the Api documentation on another.
 - [Api documentation](http://www.icndb.com/api/)
@@ -22,5 +23,5 @@ This is application that displays jokes about Chuck Noris on one screen and the 
 
 ## **Application architecture MVI**
 <p align="center">
-  <img src="https://russianblogs.com/images/124/67c17b2b1915f30979744338f5c70dfc.JPEG">
+  <img src="https://github.com/MyDesign94/ChuckNorrisJokes/blob/master/MVI.jpg">
 </p>
