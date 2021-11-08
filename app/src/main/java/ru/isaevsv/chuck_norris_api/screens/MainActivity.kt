@@ -1,5 +1,6 @@
 package ru.isaevsv.chuck_norris_api.screens
 
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -16,7 +17,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             ChuckNorrisApiTheme(
                 style = NorrisStyle.Blue,
-                darkTheme = false,
                 textSize = NorrisSize.Medium,
                 corners = NorrisCorners.Rounded,
                 bigPaddingSize = NorrisSize.Medium,
@@ -28,8 +28,11 @@ class MainActivity : ComponentActivity() {
 
                 SideEffect {
                     systemUiController.setSystemBarsColor(
-                        color = blueDarkPalette.tintColor,
-                        darkIcons = false
+                        color = when (this.resources.configuration.uiMode.and(Configuration.UI_MODE_NIGHT_MASK)) {
+                            Configuration.UI_MODE_NIGHT_YES -> { blueLightPalette.tintColor }
+                            Configuration.UI_MODE_NIGHT_NO -> { blueDarkPalette.tintColor }
+                            else -> { blueDarkPalette.tintColor }
+                        }
                     )
                 }
                 MainScreen()

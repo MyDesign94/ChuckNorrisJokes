@@ -63,9 +63,7 @@ fun RowScope.AddItem(
                 contentDescription = stringResource(R.string.bottom_icon),
             )
         },
-        selected = currentDestination?.hierarchy?.any {
-            it.route == screen.route
-        } == true,
+        selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true,
         unselectedContentColor = unselectedContentColor,
         selectedContentColor = selectedContentColor,
         onClick = {
